@@ -22,6 +22,15 @@ quote_tag = Table('quote_tag', Base.metadata,
 )
 
 
+class PcPart(Base):
+    __tablename__ = "pc-part"
+    id = Column(Integer, primary_key=True)
+    name = Column('name', Text())
+    price = Column('price', Float())
+    href = Column('href', Text(200))
+    img = Column('img', Text(200))
+
+
 class Quote(Base):
     __tablename__ = "quote"
     id = Column(Integer, primary_key=True)

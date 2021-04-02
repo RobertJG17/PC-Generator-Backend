@@ -12,7 +12,7 @@ BOT_NAME = 'pc_generator'
 SPIDER_MODULES = ['pc_generator.spiders']
 NEWSPIDER_MODULE = 'pc_generator.spiders'
 
-CONNECTION_STRING = 'sqlite:///scrapy_quotes.db'
+CONNECTION_STRING = 'sqlite:///pc_parts.db'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'pc_generator (+http://www.yourdomain.com)'
@@ -64,8 +64,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'pc_generator.pipelines.SaveQuotesPipeline': 200,
-    'pc_generator.pipelines.DuplicatesPipeline': 100
+    'pc_generator.pipelines.PcPartsPipeline': 200,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

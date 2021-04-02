@@ -3,7 +3,7 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+
 from scrapy.item import Item, Field
 from scrapy.loader.processors import MapCompose, TakeFirst
 from datetime import datetime
@@ -25,10 +25,30 @@ def parse_location(text):
     return text[3:]
 
 
-class PcGeneratorItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+def price_to_float(string):
+    return float(string)
+
+
+def microcenter_append_href(text):
+    return 'https://www.microcenter.com' + text
+
+
+class MicroCenterPartItem(Item):
+    name = Field(
+        output_processor=TakeFirst()
+    )
+    price = Field(
+        input_processor=MapCompose(price_to_float),
+        output_processor=TakeFirst()
+    )
+    href = Field(
+        input_processor=MapCompose(microcenter_append_href),
+        output_processor=TakeFirst()
+    )
+    img = Field(
+        output_processor=TakeFirst()
+    )
+
 
 class QuoteItem(Item):
     quote_content = Field(
@@ -41,7 +61,7 @@ class QuoteItem(Item):
         output_processor=TakeFirst()
     )
     author_birthday = Field(
-        input_procesor=MapCompose(convert_date),
+        input_processor=MapCompose(convert_date),
         output_processor=TakeFirst()
     )
     author_born_location = Field(
