@@ -1,15 +1,14 @@
 import scrapy
 from scrapy.loader import ItemLoader
 from pc_generator.items import MicroCenterPartItem
+import time
 
 
 class MicroCenterSpider(scrapy.Spider):
     name = "microcenter"
-    start_urls = ["https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=96"]
+    start_urls = ["https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24"]
 
     def parse(self, response):
-        self.logger.info("YOYOYOYO")
-
         parts = response.css('li.product_wrapper')
 
         for part in parts:
@@ -37,8 +36,12 @@ class MicroCenterSpider(scrapy.Spider):
         #     next_page = response.urljoin(next_page)
         #     yield scrapy.Request(next_page, callback=self.parse)
 
-    #     for a in response.css('li.next a'):
-    #         yield response.follow(a, callback=self.parse)
+        next_page = response.css("ul.pages.inline a::attr(href)").getall()[-1]
+
+        if next_page is not None:
+            next_page = response.urljoin(next_page)
+            yield response.follow(next_page, callback=self.parse)
+
     #
     # def parse_author(self, response):
     #     quote_item = response.meta['quote_item']

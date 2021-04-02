@@ -1,0 +1,2 @@
+2021-04-02 01:30:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-02 01:30:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937> (referer: None)
