@@ -1,0 +1,118 @@
+2021-04-02 14:56:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-02 14:56:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937> (referer: None)
+2021-04-02 14:56:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937)
+2021-04-02 14:56:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-04-02 14:56:21 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460004/msi-geforce-gt-710-low-profile-passive-cooled-2gb-ddr3-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460004_963264.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 2GB DDR3 PCIe 3.0 Graphics '
+         'Card',
+ 'price': 69.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/633303/msi-geforce-gt-710-low-profile-passive-cooled-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0633303_229401.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 1GB DDR3 PCIe 2.0 Graphics '
+         'Card',
+ 'price': 64.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/481747/asus-geforce-gt-710-low-profile-passive-2gb-gddr5-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0481747_360297.jpg',
+ 'name': 'GeForce GT 710 Low-Profile Passive 2GB GDDR5 PCIe Graphics Card',
+ 'price': 54.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462020/visiontek-radeon-hd-5450-low-profile-passive-cooled-1gb-ddr3-pcie-21-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462020_010207.jpg',
+ 'name': 'Radeon HD 5450 Low-Profile Passive Cooled 1GB DDR3 PCIe 2.1 Graphics '
+         'Card',
+ 'price': 49.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462019/visiontek-radeon-hd-5450-low-profile-passive-cooled-2gb-ddr3-pcie-21-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462019_010223.jpg',
+ 'name': 'Radeon HD 5450 Low-Profile Passive Cooled 2GB DDR3 PCIe 2.1 Graphics '
+         'Card',
+ 'price': 59.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/480789/asus-geforce-gt-1030-phoenix-overclocked-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0480789_344911.jpg',
+ 'name': 'GeForce GT 1030 Phoenix Overclocked Single-Fan 2GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'price': 84.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/484122/asus-geforce-gt-710-low-profile-passive-1gb-gddr5-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0484122_388249.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive 1GB GDDR5 PCIe 2.0 Graphics Card',
+ 'price': 44.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/351297/evga-geforce-210-low-profile-single-fan-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0351297_104232.jpg',
+ 'name': 'GeForce 210 Low Profile Single-Fan 1GB DDR3 PCIe 2.0 Graphics Card',
+ 'price': 37.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/479898/asus-geforce-gt-1030-passive-2gb-gddr5-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0479898_329623.jpg',
+ 'name': 'GeForce GT 1030 Passive 2GB GDDR5 PCIe Graphics Card',
+ 'price': 79.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/631501/msi-radeon-rx-550-aero-itx-overclocked-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0631501_207662.jpg',
+ 'name': 'Radeon RX 550 AERO ITX Overclocked Single-Fan 2GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'price': 69.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460007/evga-geforce-gt-710-single-fan-2gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460007_965327.jpg',
+ 'name': 'GeForce GT 710 Single-Fan 2GB DDR3 PCIe 2.0 Graphics Card',
+ 'price': 59.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/479738/gigabyte-geforce-gt-1030-low-profile-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0479738_329185.jpg',
+ 'name': 'GeForce GT 1030 Low Profile Single-Fan 2GB GDDR5 PCIe 3.0 Graphics '
+         'Card',
+ 'price': 84.99}
+2021-04-02 14:56:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/626703/asus-geforce-gt-710-passive-cooled-2gb-gddr5-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626703_154088.jpg',
+ 'name': 'GeForce GT 710 Passive Cooled 2GB GDDR5 PCIe 2.0 Graphics Card',
+ 'price': 59.99}
+2021-04-02 14:56:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+2021-04-02 14:56:23 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460002/msi-geforce-gt-710-low-profile-passive-cooled-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460002_963231.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 1GB DDR3 PCIe 2.0 Graphics '
+         'Card',
+ 'price': 64.99}
+2021-04-02 14:56:23 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627651/visiontek-geforce-gt-710-passive-cooled-2gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627651_168971.jpg',
+ 'name': 'GeForce GT 710 Passive Cooled 2GB DDR3 PCIe 2.0 Graphics Card',
+ 'price': 49.99}
+2021-04-02 14:56:23 [scrapy] DEBUG: Filtered duplicate request: <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2021-04-02 14:56:23 [scrapy] INFO: Closing spider (finished)
+2021-04-02 14:56:23 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 3466,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 418866,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'dupefilter/filtered': 1,
+ 'elapsed_time_seconds': 2.730696,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 2, 21, 56, 23, 262779),
+ 'item_scraped_count': 15,
+ 'log_count/DEBUG': 24,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 7,
+ 'response_received_count': 8,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 7,
+ 'scheduler/dequeued/memory': 7,
+ 'scheduler/enqueued': 7,
+ 'scheduler/enqueued/memory': 7,
+ 'start_time': datetime.datetime(2021, 4, 2, 21, 56, 20, 532083)}
+2021-04-02 14:56:23 [scrapy] INFO: Spider closed (finished)
