@@ -1,0 +1,516 @@
+2021-04-02 16:59:43 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-02 16:59:44 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24>
+{'href': 'https://www.microcenter.com/product/617084/asus-geforce-gtx-1660-super-tuf-overclocked-dual-fan-6gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0617084_055160.jpg',
+ 'name': 'GeForce GTX 1660 Super TUF Overclocked Dual-Fan 6GB GDDR6 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 309.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-04-02 16:59:44 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627658/asus-geforce-gtx-1650-tuf-gaming-overclocked-dual-fan-4gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627658_167668.jpg',
+ 'name': 'GeForce GTX 1650 TUF Gaming Overclocked Dual-Fan 4GB GDDR6 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 209.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/635037/asus-nvidia-gtx-1650-tuf-gaming-overclocked-dual-fan-4gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0635037_246850.jpg',
+ 'name': 'NVIDIA GTX 1650 TUF Gaming Overclocked Dual-Fan 4GB GDDR6 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 209.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false>
+{'href': 'https://www.microcenter.com/product/485312/powerspec-650-watt-80-plus-bronze-atx-semi-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0485312_402404.jpg',
+ 'name': '650 Watt 80 Plus Bronze ATX Semi-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 69.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/617082/asus-geforce-gtx-1650-super-tuf-gaming-overclocked-dual-fan-4gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0617082_057810.jpg',
+ 'name': 'GeForce GTX 1650 SUPER TUF GAMING Overclocked Dual-Fan 4GB GDDR6 '
+         'PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 239.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false>
+{'href': 'https://www.microcenter.com/product/617331/powerspec-500-watt-80-plus-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0617331_057919.jpg',
+ 'name': '500 Watt 80 Plus ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 45.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/615815/asus-geforce-gtx-1660-super-dual-overclocked-dual-fan-6gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0615815_040204.jpg',
+ 'name': 'GeForce GTX 1660 Super Dual Overclocked Dual-Fan 6GB GDDR6 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 309.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false>
+{'href': 'https://www.microcenter.com/product/457414/evga-500-watt-80-plus-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457414_913939.jpg',
+ 'name': '500 Watt 80 Plus ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 49.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/508643/msi-nvidia-geforce-gt-1030-2gd4-lp-overclocked-single-fan-2gb-gddr4-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0508643_251686.jpg',
+ 'name': 'NVIDIA GeForce GT 1030 2GD4 LP Overclocked Single-Fan 2GB GDDR4 PCIe '
+         '3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 114.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/635036/asus-nvidia-gtx-1650-dual-overclocked-dual-fan-4gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0635036_246843.jpg',
+ 'name': 'NVIDIA GTX 1650 Dual Overclocked Dual-Fan 4GB GDDR6 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 209.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627657/asus-geforce-gtx-1650-phoenix-overclocked-single-fan-4gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627657_167676.jpg',
+ 'name': 'GeForce GTX 1650 Phoenix Overclocked Single-Fan 4GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 199.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/623510/msi-gaming-x-geforce-gtx-1650-dual-fan-4gb-gddr6-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0623510_113852.jpg',
+ 'name': 'Gaming X GeForce GTX 1650 Dual-Fan 4GB GDDR6 PCIe Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 314.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460004/msi-geforce-gt-710-low-profile-passive-cooled-2gb-ddr3-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460004_963264.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 2GB DDR3 PCIe 3.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 69.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/635683/powercolor-amd-radeon-rx-550-single-fan-4gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0635683_255422.jpg',
+ 'name': 'AMD Radeon RX 550 Single-Fan 4GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 149.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/455728/msi-nvidia-gt-730-n730-4gd3v2-single-fan-4gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0455728_251694.jpg',
+ 'name': 'NVIDIA GT 730 N730-4GD3V2 Single-Fan 4GB DDR3 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 139.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/628459/pny-quadro-p400-v2-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0628459_181966.jpg',
+ 'name': 'Quadro P400 V2 Single-Fan 2GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 129.99}
+2021-04-02 16:59:44 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/624971/redragon-rgps-gc-ps002-600-watt-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0624971_128934.jpg',
+ 'name': 'RGPS GC-PS002 600 Watt 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 49.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/624962/redragon-rgps-gc-ps001-500-watt-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0624962_128926.jpg',
+ 'name': 'RGPS GC-PS001 500 Watt 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 42.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-04-02 16:59:45 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/626372/gamdias-rgb-750-watt-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626372_148338.jpg',
+ 'name': 'RGB 750 Watt 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 69.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/607487/thermaltake-smart-series-500-watt-80-plus-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0607487_956359.jpg',
+ 'name': 'Smart Series 500 Watt 80 Plus ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 54.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/510283/evga-450-br-450-watt--80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0510283_812560.jpg',
+ 'name': '450 BR 450 Watt  80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 57.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/607488/thermaltake-smart-series-600-watt-80-plus-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0607488_981142.jpg',
+ 'name': 'Smart Series 600 Watt 80 Plus ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 69.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/610059/thermaltake-smart-bx1-550-watt-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0610059_025965.jpg',
+ 'name': 'Smart BX1 550 Watt 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 59.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457435/solid-gear-neutron-series-650-watt-ps2-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457435_914382.jpg',
+ 'name': 'Neutron Series 650 Watt PS2 ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 39.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/628460/pny-quadro-p620-v2-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0628460_181974.jpg',
+ 'name': 'Quadro P620 V2 Single-Fan 2GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 199.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/632842/msi-nvidia-geforce-gt-1030-2gh-lp-overclocked-passive-cooled-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0632842_224279.jpg',
+ 'name': 'NVIDIA GeForce GT 1030 2GH LP Overclocked Passive Cooled 2GB GDDR5 '
+         'PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 104.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/633303/msi-geforce-gt-710-low-profile-passive-cooled-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0633303_229401.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 1GB DDR3 PCIe 2.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 64.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/481747/asus-geforce-gt-710-low-profile-passive-2gb-gddr5-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0481747_360297.jpg',
+ 'name': 'GeForce GT 710 Low-Profile Passive 2GB GDDR5 PCIe Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 54.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/471800/msi-gaming-x-geforce-gtx-1050-ti-overclocked-dual-fan-4gb-gddr5-pcie-video-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0471800_176057.jpg',
+ 'name': 'GAMING X GeForce GTX 1050 Ti Overclocked Dual-Fan 4GB GDDR5 PCIe '
+         'Video Card',
+ 'part_type': 'Video Cards',
+ 'price': 229.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/604243/msi-geforce-gtx-1660-ventus-xs-overclocked-dual-fan-6gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0604243_906792.jpg',
+ 'name': 'GeForce GTX 1660 Ventus XS Overclocked Dual-Fan 6GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 334.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/633833/msi-nvidia-geforce-gt-1030-lp-overclocked-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0633833_234872.jpg',
+ 'name': 'NVIDIA GeForce GT 1030 LP Overclocked Single-Fan 2GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 104.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter)
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627320/gigabyte-p450b-450-watt-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627320_163451.jpg',
+ 'name': 'P450B 450 Watt 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 54.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457428/solid-gear-sdgr-400bx-400w-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457428_914259.jpg',
+ 'name': 'SDGR-400BX 400W ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 15.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627316/gigabyte-p550b-550w-80-plus-bronze-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627316_163436.jpg',
+ 'name': 'P550B 550W 80 Plus Bronze ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 64.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457430/solid-gear-sdgr-500bx-500w-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457430_914283.jpg',
+ 'name': 'SDGR-500BX 500W ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 19.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/607489/thermaltake-smart-series-700-watt-80-plus-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0607489_981159.jpg',
+ 'name': 'Smart Series 700 Watt 80 Plus ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 69.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457433/solid-gear-basix-series-600-watt-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457433_914341.jpg',
+ 'name': 'Basix Series 600 Watt ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 24.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457426/solid-gear-flex-320-watt-mini-itx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457426_914234.jpg',
+ 'name': 'Flex 320 Watt Mini-ITX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 39.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457425/solid-gear-flex-270-watt-mini-itx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457425_914200.jpg',
+ 'name': 'Flex 270 Watt Mini-ITX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 34.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457424/solid-gear-220-watt-flex-mini-itx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457424_914176.jpg',
+ 'name': '220 Watt Flex mini-ITX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 29.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457437/solid-gear-200-watt-mtfx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457437_914507.jpg',
+ 'name': '200 Watt mTFX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 19.99}
+2021-04-02 16:59:45 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457438/solid-gear-250-watt-tfx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457438_914523.jpg',
+ 'name': '250 Watt TFX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 24.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457439/solid-gear-350-watt-mtfx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457439_914556.jpg',
+ 'name': '350 Watt mTFX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 34.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457432/solid-gear-neutron-series-550-watt-ps2-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457432_914309.jpg',
+ 'name': 'Neutron Series 550 Watt PS2 ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 34.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462020/visiontek-radeon-hd-5450-low-profile-passive-cooled-1gb-ddr3-pcie-21-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462020_010207.jpg',
+ 'name': 'Radeon HD 5450 Low-Profile Passive Cooled 1GB DDR3 PCIe 2.1 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 49.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter)
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462019/visiontek-radeon-hd-5450-low-profile-passive-cooled-2gb-ddr3-pcie-21-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462019_010223.jpg',
+ 'name': 'Radeon HD 5450 Low-Profile Passive Cooled 2GB DDR3 PCIe 2.1 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 59.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/480789/asus-geforce-gt-1030-phoenix-overclocked-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0480789_344911.jpg',
+ 'name': 'GeForce GT 1030 Phoenix Overclocked Single-Fan 2GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 84.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/484122/asus-geforce-gt-710-low-profile-passive-1gb-gddr5-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0484122_388249.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive 1GB GDDR5 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 44.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/617689/asus-radeon-rx-5500-xt-dual-overclocked-dual-fan-8gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0617689_061804.jpg',
+ 'name': 'Radeon RX 5500 XT Dual Overclocked Dual-Fan 8GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 289.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/631796/gigabyte-nvidia-geforce-gtx-1650-windforce-overclocked-dual-fan-4gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0631796_211110.jpg',
+ 'name': 'NVIDIA GeForce GTX 1650 Windforce Overclocked Dual-Fan 4GB GDDR6 '
+         'PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 179.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/351297/evga-geforce-210-low-profile-single-fan-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0351297_104232.jpg',
+ 'name': 'GeForce 210 Low Profile Single-Fan 1GB DDR3 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 37.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/478361/msi-armor-radeon-rx-580-overclocked-dual-fan-8gb-gddr5-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0478361_291575.jpg',
+ 'name': 'Armor Radeon RX 580 Overclocked Dual-Fan 8GB GDDR5 PCIe Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 219.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/457436/solid-gear-neutron-series-750-watt-ps2-atx-non-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0457436_914499.jpg',
+ 'name': 'Neutron Series 750 Watt PS2 ATX Non-Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 49.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/618499/powercolor-radeon-rx-5600-xt-red-devil-overclocked-dual-fan-6gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0618499_070557.jpg',
+ 'name': 'Radeon RX 5600 XT Red Devil Overclocked Dual-Fan 6GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 329.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/617824/asus-geforce-gtx-1660-super-advance-rog-strix-overclocked-dual-fan-6gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0617824_071092.jpg',
+ 'name': 'GeForce GTX 1660 Super Advance ROG Strix Overclocked Dual-Fan 6GB '
+         'GDDR6 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 329.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/479898/asus-geforce-gt-1030-passive-2gb-gddr5-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0479898_329623.jpg',
+ 'name': 'GeForce GT 1030 Passive 2GB GDDR5 PCIe Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 79.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/631501/msi-radeon-rx-550-aero-itx-overclocked-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0631501_207662.jpg',
+ 'name': 'Radeon RX 550 AERO ITX Overclocked Single-Fan 2GB GDDR5 PCIe 3.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 69.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/623556/asus-dual-radeon-rx-5500-xt-overclocked-dual-fan-4gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0623556_113878.jpg',
+ 'name': 'Dual Radeon RX 5500 XT Overclocked Dual-Fan 4GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 249.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/625774/powercolor-radeon-rx-550-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0625774_139626.jpg',
+ 'name': 'Radeon RX 550 Single-Fan 2GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 104.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/621375/gigabyte-radeon-rx-580-overclocked-dual-fan-8gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0621375_087379.jpg',
+ 'name': 'Radeon RX 580 Overclocked Dual-Fan 8GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 219.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/615269/evga-geforce-gtx-1660-super-sc-ultra-overclocked-dual-fan-6gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0615269_042176.jpg',
+ 'name': 'GeForce GTX 1660 Super SC Ultra Overclocked Dual-Fan 6GB GDDR6 PCIe '
+         '3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 244.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/625905/powercolor-radeon-rx-5500-xt-dual-fan-4gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0625905_146795.jpg',
+ 'name': 'Radeon RX 5500 XT Dual-Fan 4GB GDDR6 PCIe 4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 184.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460007/evga-geforce-gt-710-single-fan-2gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460007_965327.jpg',
+ 'name': 'GeForce GT 710 Single-Fan 2GB DDR3 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 59.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/479738/gigabyte-geforce-gt-1030-low-profile-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0479738_329185.jpg',
+ 'name': 'GeForce GT 1030 Low Profile Single-Fan 2GB GDDR5 PCIe 3.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 84.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/626703/asus-geforce-gt-710-passive-cooled-2gb-gddr5-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626703_154088.jpg',
+ 'name': 'GeForce GT 710 Passive Cooled 2GB GDDR5 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 59.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/618341/asus-radeon-rx-5500-xt-rog-strix-overclocked-triple-fan-8gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0618341_071118.jpg',
+ 'name': 'Radeon RX 5500 XT ROG Strix Overclocked Triple-Fan 8GB GDDR6 PCIe '
+         '4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 299.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462023/visiontek-sff-radeon-7750-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462023_010199.jpg',
+ 'name': 'SFF Radeon 7750 Single-Fan 2GB GDDR5 PCIe 3.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 179.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/618457/sapphire-technology-radeon-rx-5600-xt-pulse-overclocked-dual-fan-6gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0618457_070797.jpg',
+ 'name': 'Radeon RX 5600 XT Pulse Overclocked Dual-Fan 6GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 309.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/603132/gigabyte-geforce-gtx-1660-ti-overclocked-6gb-gddr6-dual-fan-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0603132_894030.jpg',
+ 'name': 'GeForce GTX 1660 Ti Overclocked 6GB GDDR6 Dual-Fan PCIe 3.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 279.99}
+2021-04-02 16:59:46 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+2021-04-02 16:59:47 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/479937/evga-geforce-gt-1030-sc-low-profile-single-fan-2gb-gddr5-30-pcie-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0479937_334235.jpg',
+ 'name': 'GeForce GT 1030 SC Low Profile Single-Fan 2GB GDDR5 3.0 PCIe '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 109.99}
+2021-04-02 16:59:47 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/462021/visiontek-radeon-hd-7750-low-profile-single-fan-2gb-gddr5-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0462021_010124.jpg',
+ 'name': 'Radeon HD 7750 Low-Profile Single-Fan 2GB GDDR5 PCIe 3.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 219.99}
+2021-04-02 16:59:47 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/460002/msi-geforce-gt-710-low-profile-passive-cooled-1gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0460002_963231.jpg',
+ 'name': 'GeForce GT 710 Low Profile Passive Cooled 1GB DDR3 PCIe 2.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 64.99}
+2021-04-02 16:59:47 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/607600/evga-geforce-gtx-1660-ti-sc-ultra-dual-fan-6gb-gddr6-pcie-30-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0607600_084384.jpg',
+ 'name': 'GeForce GTX 1660 Ti SC Ultra Dual-Fan 6GB GDDR6 PCIe 3.0 Graphics '
+         'Card',
+ 'part_type': 'Video Cards',
+ 'price': 299.99}
+2021-04-02 16:59:47 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.com/product/627651/visiontek-geforce-gt-710-passive-cooled-2gb-ddr3-pcie-20-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627651_168971.jpg',
+ 'name': 'GeForce GT 710 Passive Cooled 2GB DDR3 PCIe 2.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 49.99}
+2021-04-02 16:59:47 [scrapy] INFO: Closing spider (finished)
+2021-04-02 16:59:47 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 5851,
+ 'downloader/request_count': 13,
+ 'downloader/request_method_count/GET': 13,
+ 'downloader/response_bytes': 710860,
+ 'downloader/response_count': 13,
+ 'downloader/response_status_count/200': 13,
+ 'elapsed_time_seconds': 3.645781,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 2, 23, 59, 47, 181835),
+ 'item_scraped_count': 74,
+ 'log_count/DEBUG': 87,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 4,
+ 'request_depth_max': 6,
+ 'response_received_count': 13,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 12,
+ 'scheduler/dequeued/memory': 12,
+ 'scheduler/enqueued': 12,
+ 'scheduler/enqueued/memory': 12,
+ 'start_time': datetime.datetime(2021, 4, 2, 23, 59, 43, 536054)}
+2021-04-02 16:59:47 [scrapy] INFO: Spider closed (finished)

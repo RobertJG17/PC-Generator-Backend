@@ -48,6 +48,9 @@ class MicroCenterPartItem(Item):
     img = Field(
         output_processor=TakeFirst()
     )
+    part_type = Field(
+        output_processor=TakeFirst()
+    )
 
 
 class QuoteItem(Item):

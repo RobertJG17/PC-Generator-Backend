@@ -29,6 +29,7 @@ class PcPart(Base):
     price = Column('price', Float())
     href = Column('href', Text(200))
     img = Column('img', Text(200))
+    type = Column('part_type', Text(20))
 
 
 class Quote(Base):
