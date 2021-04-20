@@ -1,0 +1,87 @@
+2021-04-18 18:30:51 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-18 18:30:51 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-04-18 18:30:51 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 54, in parse
+    loaded = self.top_item(part_type)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 71, in top_item
+    self.graphics_card_df.sort_values(by=['price'], ascending=False, inplace=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/core/frame.py", line 5293, in sort_values
+    k = self._get_label_or_level_values(by, axis=axis)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pandas/core/generic.py", line 1560, in _get_label_or_level_values
+    raise KeyError(key)
+KeyError: 'price'
+2021-04-18 18:30:51 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-04-18 18:30:51 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-04-18 18:30:51 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/485312/powerspec-650w-power-supply-semi-modular-80-bronze-certified-atx-active-pfc-sli-crossfire-ready-gaming-pc-computer-switching-psu',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0485312_402404.jpg',
+ 'name': '650W Power Supply Semi Modular 80+ Bronze Certified ATX Active PFC '
+         'SLI Crossfire Ready Gaming PC Computer Switching PSU',
+ 'part_type': 'Power Supplies',
+ 'price': 69.99}
+2021-04-18 18:30:51 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/category/4294945779/ssd-solid-state-drives>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/628400/emtec-international-x200-1tb-ssd-3d-nand-usb-31-gen-1-external-solid-state-drive',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0628400_174797.jpg',
+ 'name': 'X200 1TB SSD 3D NAND USB 3.1 Gen 1 External Solid State Drive',
+ 'part_type': 'SSD (Solid State Drives)',
+ 'price': 104.99}
+2021-04-18 18:30:51 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-04-18 18:30:52 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/604789/lian-li-205-tempered-glass-atx-computer-case---black',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0604789_908012.jpg',
+ 'name': '205 Tempered Glass ATX Computer Case - Black',
+ 'part_type': 'Computer Cases',
+ 'price': 69.99}
+2021-04-18 18:30:52 [scrapy] INFO: Closing spider (finished)
+2021-04-18 18:30:52 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1362,
+ 'downloader/request_count': 5,
+ 'downloader/request_method_count/GET': 5,
+ 'downloader/response_bytes': 244464,
+ 'downloader/response_count': 5,
+ 'downloader/response_status_count/200': 5,
+ 'elapsed_time_seconds': 1.405601,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 19, 1, 30, 52, 156751),
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 8,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'memusage/max': 166850560,
+ 'memusage/startup': 166850560,
+ 'response_received_count': 5,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 4,
+ 'scheduler/dequeued/memory': 4,
+ 'scheduler/enqueued': 4,
+ 'scheduler/enqueued/memory': 4,
+ 'spider_exceptions/KeyError': 1,
+ 'start_time': datetime.datetime(2021, 4, 19, 1, 30, 50, 751150)}
+2021-04-18 18:30:52 [scrapy] INFO: Spider closed (finished)

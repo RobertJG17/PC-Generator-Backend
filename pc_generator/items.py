@@ -33,6 +33,11 @@ def microcenter_append_href(text):
     return 'https://www.microcenter.com' + text
 
 
+# def format_rating(rating):
+#     print(rating)
+#     return float(rating[0])
+
+
 class MicroCenterPartItem(Item):
     name = Field(
         output_processor=TakeFirst()

@@ -1,0 +1,282 @@
+2021-04-03 16:59:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-03 16:59:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-04-03 16:59:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-04-03 16:59:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-04-03 16:59:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-04-03 16:59:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/category/4294945779/ssd-solid-state-drives)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-04-03 16:59:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter)
+2021-04-03 16:59:22 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 71, in __call__
+    next_values += arg_to_iter(func(v))
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/items.py", line 37, in format_rating
+    return float(rating[0])
+IndexError: invalid index to scalar variable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 316, in _process_input_value
+    return proc(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 76, in __call__
+    str(e)))
+ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 54, in parse
+    loaded = self.top_item(part_type)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 78, in top_item
+    loaded = self.loaded_item(selected)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 101, in loaded_item
+    loader.add_value(field_name='rating', value=selected['rating'])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 190, in add_value
+    self._add_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 208, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 321, in _process_input_value
+    value, type(e).__name__, str(e)))
+ValueError: Error with input processor MapCompose: field='rating' value=[5.0] error='ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.''
+2021-04-03 16:59:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=4&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=5&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=4&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=5&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter)
+2021-04-03 16:59:23 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 71, in __call__
+    next_values += arg_to_iter(func(v))
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/items.py", line 37, in format_rating
+    return float(rating[0])
+IndexError: invalid index to scalar variable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 316, in _process_input_value
+    return proc(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 76, in __call__
+    str(e)))
+ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 54, in parse
+    loaded = self.top_item(part_type)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 73, in top_item
+    loaded = self.loaded_item(selected)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 101, in loaded_item
+    loader.add_value(field_name='rating', value=selected['rating'])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 190, in add_value
+    self._add_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 208, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 321, in _process_input_value
+    value, type(e).__name__, str(e)))
+ValueError: Error with input processor MapCompose: field='rating' value=[5.0] error='ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.''
+2021-04-03 16:59:23 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=5&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 71, in __call__
+    next_values += arg_to_iter(func(v))
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/items.py", line 37, in format_rating
+    return float(rating[0])
+IndexError: invalid index to scalar variable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 316, in _process_input_value
+    return proc(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 76, in __call__
+    str(e)))
+ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 54, in parse
+    loaded = self.top_item(part_type)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 83, in top_item
+    loaded = self.loaded_item(selected)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 101, in loaded_item
+    loader.add_value(field_name='rating', value=selected['rating'])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 190, in add_value
+    self._add_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 208, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 321, in _process_input_value
+    value, type(e).__name__, str(e)))
+ValueError: Error with input processor MapCompose: field='rating' value=[5.0] error='ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.''
+2021-04-03 16:59:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=6&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=5&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:24 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=7&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=6&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:25 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=8&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=7&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-03 16:59:25 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=8&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=7&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 71, in __call__
+    next_values += arg_to_iter(func(v))
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/items.py", line 37, in format_rating
+    return float(rating[0])
+IndexError: invalid index to scalar variable.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 316, in _process_input_value
+    return proc(value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/processors.py", line 76, in __call__
+    str(e)))
+ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/defer.py", line 120, in iter_errback
+    yield next(it)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/utils/python.py", line 353, in __next__
+    return next(self.data)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scrapy/core/spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 54, in parse
+    loaded = self.top_item(part_type)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 88, in top_item
+    loaded = self.loaded_item(selected)
+  File "/Users/robert/Desktop/Python Projects/PC-Generator-Backend/pc_generator/spiders/microcenter_spider.py", line 101, in loaded_item
+    loader.add_value(field_name='rating', value=selected['rating'])
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 190, in add_value
+    self._add_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 208, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/itemloaders/__init__.py", line 321, in _process_input_value
+    value, type(e).__name__, str(e)))
+ValueError: Error with input processor MapCompose: field='rating' value=[5.0] error='ValueError: Error in MapCompose with <function format_rating at 0x7fc90a95a200> value=[5.0] error='IndexError: invalid index to scalar variable.''
+2021-04-03 16:59:25 [scrapy] INFO: Closing spider (finished)
+2021-04-03 16:59:25 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 12098,
+ 'downloader/request_count': 26,
+ 'downloader/request_method_count/GET': 26,
+ 'downloader/response_bytes': 1503445,
+ 'downloader/response_count': 26,
+ 'downloader/response_status_count/200': 26,
+ 'elapsed_time_seconds': 5.790291,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 3, 23, 59, 25, 286180),
+ 'log_count/DEBUG': 26,
+ 'log_count/ERROR': 4,
+ 'log_count/INFO': 7,
+ 'memusage/max': 96333824,
+ 'memusage/startup': 96333824,
+ 'request_depth_max': 7,
+ 'response_received_count': 26,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 25,
+ 'scheduler/dequeued/memory': 25,
+ 'scheduler/enqueued': 25,
+ 'scheduler/enqueued/memory': 25,
+ 'spider_exceptions/ValueError': 4,
+ 'start_time': datetime.datetime(2021, 4, 3, 23, 59, 19, 495889)}
+2021-04-03 16:59:25 [scrapy] INFO: Spider closed (finished)

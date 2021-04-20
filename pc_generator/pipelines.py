@@ -24,6 +24,7 @@ class PcPartsPipeline(object):
         pc_part.href = item["href"]
         pc_part.img = item["img"]
         pc_part.type = item["part_type"]
+        # pc_part.rating = item["rating"]
 
         # exist_part = session.query(Author).filter_by(name = author.name).first()
         # if exist_author is not None:

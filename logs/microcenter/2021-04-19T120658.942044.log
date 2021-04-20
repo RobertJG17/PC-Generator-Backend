@@ -1,0 +1,75 @@
+2021-04-19 12:07:00 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-19 12:07:00 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false)
+2021-04-19 12:07:01 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/category/4294945779/ssd-solid-state-drives)
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter)
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=1&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-04-19 12:07:02 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=1&cat=SSD-(Solid-State-Drives)-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/627020/inland-platinum-4tb-ssd-3d-qlc-nand-m2-2280-pcie-nvme-30-x4-m2-internal-solid-state-drive',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0627020_157412.jpg',
+ 'name': 'Platinum 4TB SSD 3D QLC NAND M.2 2280 PCIe NVMe 3.0 x4 M.2 Internal '
+         'Solid State Drive',
+ 'part_type': 'SSD (Solid State Drives)',
+ 'price': 479.99}
+2021-04-19 12:07:02 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=5&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter)
+2021-04-19 12:07:03 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=5&cat=Computer-Cases-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/625183/asus-rog-strix-helios-gx601-rgb-tempered-glass-eatx-mid-tower-computer-case---white-edition',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0625183_138149.jpg',
+ 'name': 'ROG Strix Helios GX601 RGB Tempered Glass eATX Mid-Tower Computer '
+         'Case - White Edition',
+ 'part_type': 'Computer Cases',
+ 'price': 349.99}
+2021-04-19 12:07:04 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=5&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/634301/asus-rog-strix-1000-watt-80-plus-gold-atx-fully-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0634301_243121.jpg',
+ 'name': 'ROG STRIX 1000 Watt 80 Plus Gold ATX Fully Modular Power Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 269.99}
+2021-04-19 12:07:04 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-04-19 12:07:04 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+2021-04-19 12:07:04 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/628740/evga-geforce-rtx-3090-xc3-ultra-gaming-overclocked-triple-fan-24gb-gddr6x-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0628740_177949.jpg',
+ 'name': 'GeForce RTX 3090 XC3 Ultra Gaming Overclocked Triple-Fan 24GB GDDR6X '
+         'PCIe 4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 1699.0}
+2021-04-19 12:07:04 [scrapy] INFO: Closing spider (finished)
+2021-04-19 12:07:04 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 9441,
+ 'downloader/request_count': 21,
+ 'downloader/request_method_count/GET': 21,
+ 'downloader/response_bytes': 1175569,
+ 'downloader/response_count': 21,
+ 'downloader/response_status_count/200': 21,
+ 'elapsed_time_seconds': 5.046368,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 19, 19, 7, 4, 921103),
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 25,
+ 'log_count/INFO': 7,
+ 'memusage/max': 96288768,
+ 'memusage/startup': 96288768,
+ 'request_depth_max': 6,
+ 'response_received_count': 21,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 20,
+ 'scheduler/dequeued/memory': 20,
+ 'scheduler/enqueued': 20,
+ 'scheduler/enqueued/memory': 20,
+ 'start_time': datetime.datetime(2021, 4, 19, 19, 6, 59, 874735)}
+2021-04-19 12:07:04 [scrapy] INFO: Spider closed (finished)

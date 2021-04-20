@@ -30,6 +30,7 @@ class PcPart(Base):
     href = Column('href', Text(200))
     img = Column('img', Text(200))
     type = Column('part_type', Text(20))
+    # rating = Column('rating', Float())
 
 
 class Quote(Base):

@@ -15,6 +15,7 @@ class MicroCenterSpider(scrapy.Spider):
                             "Power Supplies": .07,
                             "Computer Cases": .075,
                             "SSD (Solid State Drives)": .1}
+
     graphics_card_df = pd.DataFrame()
     power_supply_df = pd.DataFrame()
     case_df = pd.DataFrame()
@@ -34,7 +35,10 @@ class MicroCenterSpider(scrapy.Spider):
             loader.add_css(field_name='href', css='.normal a::attr(href)')
             loader.add_css(field_name='img', css='img::attr(src)')
             loader.add_value(field_name='part_type', value=part_type)
+            # if part.css('img.imgReviews::attr(alt)') is not None:
+            #     loader.add_css(field_name='rating', css='img.imgReviews::attr(alt)')
             loaded = loader.load_item()
+
             if loaded['price'] >= price_point:
                 continue
             # yield loaded
@@ -94,6 +98,7 @@ class MicroCenterSpider(scrapy.Spider):
         loader.add_value(field_name='href', value=selected['href'])
         loader.add_value(field_name='img', value=selected['img'])
         loader.add_value(field_name='part_type', value=selected['part_type'])
+        # loader.add_value(field_name='rating', value=selected['rating'])
         loaded = loader.load_item()
         return loaded
 
