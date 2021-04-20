@@ -1,0 +1,98 @@
+2021-04-18 22:14:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-04-18 22:14:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-04-18 22:14:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/category/4294945779/ssd-solid-state-drives)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-04-18 22:14:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false)
+2021-04-18 22:14:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-04-18 22:14:22 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+Traceback (most recent call last):
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\rober\Desktop\Python Projects\PC-Spawner-Backend\pc_generator\spiders\microcenter_spider.py", line 26, in parse
+    part_type = parts[0].css('a::attr(data-category)').get()
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\parsel\selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2021-04-18 22:14:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter)
+2021-04-18 22:14:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-04-18 22:14:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-04-18 22:14:22 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/632320/powercolor-amd-radeon-rx-6800-xt-axrx-overclocked-triple-fan-16gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0632320_217653.jpg',
+ 'name': 'AMD Radeon RX 6800 XT AXRX Overclocked Triple-Fan 16GB GDDR6 PCIe '
+         '4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 1219.99}
+2021-04-18 22:14:22 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter)
+2021-04-18 22:14:23 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/631918/sapphire-technology-amd-radeon-rx-6800-xt-nitro-se-overclocked-triple-fan-16gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0631918_213165.jpg',
+ 'name': 'AMD Radeon RX 6800 XT Nitro SE Overclocked Triple-Fan 16GB GDDR6 '
+         'PCIe 4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 1349.0}
+2021-04-18 22:14:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-04-18 22:14:23 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-04-18 22:14:24 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter)
+2021-04-18 22:14:24 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=7&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/633196/powercolor-amd-radeon-6800-xt-red-devil-overclocked-triple-fan-16gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0633196_228130.jpg',
+ 'name': 'AMD Radeon 6800 XT Red Devil Overclocked Triple-Fan 16GB GDDR6 PCIe '
+         '4.0 Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 1299.99}
+2021-04-18 22:14:24 [scrapy] INFO: Closing spider (finished)
+2021-04-18 22:14:24 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7899,
+ 'downloader/request_count': 18,
+ 'downloader/request_method_count/GET': 18,
+ 'downloader/response_bytes': 987168,
+ 'downloader/response_count': 18,
+ 'downloader/response_status_count/200': 18,
+ 'elapsed_time_seconds': 4.563295,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 19, 5, 14, 24, 566544),
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 21,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 4,
+ 'request_depth_max': 6,
+ 'response_received_count': 18,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 17,
+ 'scheduler/dequeued/memory': 17,
+ 'scheduler/enqueued': 17,
+ 'scheduler/enqueued/memory': 17,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2021, 4, 19, 5, 14, 20, 3249)}
+2021-04-18 22:14:24 [scrapy] INFO: Spider closed (finished)
