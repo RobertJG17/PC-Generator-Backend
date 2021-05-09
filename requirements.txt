@@ -14,7 +14,7 @@ itemloaders==1.0.4
 jmespath==0.10.0
 lxml==4.6.3
 numpy==1.19.4
-pandas==1.1.2
+pandas~=1.2.3
 parsel==1.6.0
 Protego==0.1.16
 pyasn1==0.4.8
@@ -33,6 +33,4 @@ SQLAlchemy==1.4.4
 Twisted==21.2.0
 w3lib==1.22.0
 zope.interface==5.3.0
-
-
-
+Flask~=1.1.2

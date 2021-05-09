@@ -5,8 +5,10 @@ import pandas as pd
 # http://localhost:9080/crawl.json?start_requests=True&crawl_args={%22price%22:2000}&spider_name=microcenter
 # twisted-iocpsupport==1.0.1
 
+
 class MicroCenterSpider(scrapy.Spider):
     name = "microcenter"
+    price = 2000
     start_urls = ["https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24",
                   "https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false",
                   "https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false",

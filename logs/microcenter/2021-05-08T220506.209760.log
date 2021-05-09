@@ -1,0 +1,145 @@
+2021-05-08 22:05:07 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-05-08 22:05:08 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-05-08 22:05:08 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-05-08 22:05:08 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-05-08 22:05:08 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/category/4294945779/ssd-solid-state-drives)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-05-08 22:05:09 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false)
+2021-05-08 22:05:10 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-05-08 22:05:10 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-05-08 22:05:10 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+Traceback (most recent call last):
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\processors.py", line 71, in __call__
+    next_values += arg_to_iter(func(v))
+  File "C:\Users\rober\Desktop\Python Projects\PC-Spawner-Backend\pc_generator\items.py", line 29, in price_to_float
+    return float(string)
+ValueError: could not convert string to float: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\__init__.py", line 316, in _process_input_value
+    return proc(value)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\processors.py", line 73, in __call__
+    raise ValueError("Error in MapCompose with "
+ValueError: Error in MapCompose with <function price_to_float at 0x000001CA7D6BC700> value=['', ''] error='ValueError: could not convert string to float: '''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\rober\Desktop\Python Projects\PC-Spawner-Backend\pc_generator\spiders\microcenter_spider.py", line 35, in parse
+    loader.add_css(field_name='price', css='a::attr(data-price)')
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\__init__.py", line 407, in add_css
+    self.add_value(field_name, values, *processors, **kw)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\__init__.py", line 190, in add_value
+    self._add_value(field_name, value)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\__init__.py", line 208, in _add_value
+    processed_value = self._process_input_value(field_name, value)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\itemloaders\__init__.py", line 318, in _process_input_value
+    raise ValueError(
+ValueError: Error with input processor MapCompose: field='price' value=['', ''] error='ValueError: Error in MapCompose with <function price_to_float at 0x000001CA7D6BC700> value=['', ''] error='ValueError: could not convert string to float: ''''
+2021-05-08 22:05:10 [scrapy] ERROR: Spider error processing <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=3&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+Traceback (most recent call last):
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\defer.py", line 120, in iter_errback
+    yield next(it)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\utils\python.py", line 353, in __next__
+    return next(self.data)
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 340, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\scrapy\core\spidermw.py", line 62, in _evaluate_iterable
+    for r in iterable:
+  File "C:\Users\rober\Desktop\Python Projects\PC-Spawner-Backend\pc_generator\spiders\microcenter_spider.py", line 29, in parse
+    part_type = parts[0].css('a::attr(data-category)').get()
+  File "c:\users\rober\desktop\python projects\pc-spawner-backend\venv\lib\site-packages\parsel\selector.py", line 70, in __getitem__
+    o = super(SelectorList, self).__getitem__(pos)
+IndexError: list index out of range
+2021-05-08 22:05:10 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter)
+2021-05-08 22:05:10 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-05-08 22:05:11 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter)
+2021-05-08 22:05:11 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-05-08 22:05:11 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/626304/corsair-icue-4000x-rgb-tempered-glass-atx-mid-tower-computer-case-black',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626304_153593.jpg',
+ 'name': 'iCUE 4000X RGB Tempered Glass ATX Mid-Tower Computer Case - Black',
+ 'part_type': 'Computer Cases',
+ 'price': 149.99}
+2021-05-08 22:05:11 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/630682/asus-geforce-rtx-3070-dual-overclocked-dual-fan-8gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0630682_196279.jpg',
+ 'name': 'GeForce RTX 3070 Dual Overclocked Dual-Fan 8GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 679.99}
+2021-05-08 22:05:11 [scrapy] INFO: Closing spider (finished)
+2021-05-08 22:05:11 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7398,
+ 'downloader/request_count': 17,
+ 'downloader/request_method_count/GET': 17,
+ 'downloader/response_bytes': 956139,
+ 'downloader/response_count': 17,
+ 'downloader/response_status_count/200': 17,
+ 'elapsed_time_seconds': 4.010561,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 5, 9, 5, 5, 11, 628636),
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 19,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 4,
+ 'request_depth_max': 5,
+ 'response_received_count': 17,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 16,
+ 'scheduler/dequeued/memory': 16,
+ 'scheduler/enqueued': 16,
+ 'scheduler/enqueued/memory': 16,
+ 'spider_exceptions/IndexError': 1,
+ 'spider_exceptions/ValueError': 1,
+ 'start_time': datetime.datetime(2021, 5, 9, 5, 5, 7, 618075)}
+2021-05-08 22:05:11 [scrapy] INFO: Spider closed (finished)

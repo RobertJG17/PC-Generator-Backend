@@ -1,0 +1,70 @@
+2021-05-08 23:19:17 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/robots.txt> (referer: None)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24> (referer: None)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/category/4294945779/ssd-solid-state-drives> (referer: None)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false> (referer: None)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false> (referer: None)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&sortby=match&rpp=24)
+2021-05-08 23:19:18 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/category/4294945779/ssd-solid-state-drives)
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294966654&myStore=false)
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=2&cat=Video-Cards-:-MicroCenter)
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?Ntk=all&sortby=match&N=4294964318&myStore=false)
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=1&cat=SSD-(Solid-State-Drives)-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=2&cat=SSD-(Solid-State-Drives)-:-MicroCenter)
+2021-05-08 23:19:19 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294945779&NTK=all&page=1&cat=SSD-(Solid-State-Drives)-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/626769/seagate-firecuda-500gb-ssd-usb-32-gen-2x2-external-solid-state-drive',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626769_152074.jpg',
+ 'name': 'FireCuda 500GB SSD USB 3.2 Gen 2x2 External Solid State Drive',
+ 'part_type': 'SSD (Solid State Drives)',
+ 'price': 199.99}
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=2&cat=Power-Supplies-:-MicroCenter)
+2021-05-08 23:19:19 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=3&cat=Video-Cards-:-MicroCenter)
+2021-05-08 23:19:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=2&cat=Computer-Cases-:-MicroCenter)
+2021-05-08 23:19:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=3&cat=Power-Supplies-:-MicroCenter)
+2021-05-08 23:19:20 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966654&NTK=all&page=4&cat=Power-Supplies-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/473991/thermaltake-toughpower-grand-rgb-650-watts-80-plus-gold-atx-fully-modular-power-supply',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0473991_214189.jpg',
+ 'name': 'Toughpower Grand RGB 650 Watts 80 Plus Gold ATX Fully Modular Power '
+         'Supply',
+ 'part_type': 'Power Supplies',
+ 'price': 139.99}
+2021-05-08 23:19:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=4&cat=Video-Cards-:-MicroCenter)
+2021-05-08 23:19:20 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=3&cat=Computer-Cases-:-MicroCenter)
+2021-05-08 23:19:20 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294964318&NTK=all&page=4&cat=Computer-Cases-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/626304/corsair-icue-4000x-rgb-tempered-glass-atx-mid-tower-computer-case-black',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0626304_153593.jpg',
+ 'name': 'iCUE 4000X RGB Tempered Glass ATX Mid-Tower Computer Case - Black',
+ 'part_type': 'Computer Cases',
+ 'price': 149.99}
+2021-05-08 23:19:21 [scrapy] DEBUG: Crawled (200) <GET https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter> (referer: https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=5&cat=Video-Cards-:-MicroCenter)
+2021-05-08 23:19:21 [scrapy] DEBUG: Scraped from <200 https://www.microcenter.com/search/search_results.aspx?N=4294966937&NTK=all&page=6&cat=Video-Cards-:-MicroCenter>
+{'href': 'https://www.microcenter.comhttps://www.microcenter.com/product/630682/asus-geforce-rtx-3070-dual-overclocked-dual-fan-8gb-gddr6-pcie-40-graphics-card',
+ 'img': 'https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/0630682_196279.jpg',
+ 'name': 'GeForce RTX 3070 Dual Overclocked Dual-Fan 8GB GDDR6 PCIe 4.0 '
+         'Graphics Card',
+ 'part_type': 'Video Cards',
+ 'price': 679.99}
+2021-05-08 23:19:21 [scrapy] INFO: Closing spider (finished)
+2021-05-08 23:19:21 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 7904,
+ 'downloader/request_count': 18,
+ 'downloader/request_method_count/GET': 18,
+ 'downloader/response_bytes': 1005276,
+ 'downloader/response_count': 18,
+ 'downloader/response_status_count/200': 18,
+ 'elapsed_time_seconds': 3.969472,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 5, 9, 6, 19, 21, 259725),
+ 'item_scraped_count': 4,
+ 'log_count/DEBUG': 22,
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 4,
+ 'request_depth_max': 5,
+ 'response_received_count': 18,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 17,
+ 'scheduler/dequeued/memory': 17,
+ 'scheduler/enqueued': 17,
+ 'scheduler/enqueued/memory': 17,
+ 'start_time': datetime.datetime(2021, 5, 9, 6, 19, 17, 290253)}
+2021-05-08 23:19:21 [scrapy] INFO: Spider closed (finished)
