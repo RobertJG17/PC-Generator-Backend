@@ -3,7 +3,7 @@ from scrapy.loader import ItemLoader
 from pc_generator.items import MicroCenterPartItem
 import pandas as pd
 # http://localhost:9080/crawl.json?start_requests=True&crawl_args={%22price%22:2000}&spider_name=microcenter
-
+# twisted-iocpsupport==1.0.1
 
 class MicroCenterSpider(scrapy.Spider):
     name = "microcenter"
