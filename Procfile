@@ -1,1 +1,1 @@
-web: gunicorn microcenter_spider:app
+web: gunicorn scrapyrt:app
